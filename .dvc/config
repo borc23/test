@@ -1,4 +1,6 @@
 [core]
     remote = mylocal
+[cache]
+    type = "reflink,hardlink,symlink,copy"
 ['remote "mylocal"']
     url = /media/bor/Elements/dvc-remote-storage
